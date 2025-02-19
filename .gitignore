@@ -1,0 +1,5 @@
+
+/Outputs
+*.o
+/Outputs/obj
+/*.exe
