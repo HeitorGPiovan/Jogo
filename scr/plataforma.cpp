@@ -94,8 +94,6 @@ void Entidades::Obstaculos::Plataforma::setTamanho(int t)
 
         case 4:
             pGrafico->definirTextura("PlataformaG", sprite);
-            // cout << "Alterando textura para tamanho " << tamanho << std::endl;
-
             break;
 
         default:

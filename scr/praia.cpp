@@ -225,6 +225,4 @@ void Fases::Praia::criarJogadores()
             pJog2->setDir(0);
         }
     }
-
-    // cout << "Jogadores criados" << endl;
 }

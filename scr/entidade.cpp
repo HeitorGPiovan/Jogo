@@ -113,8 +113,6 @@ void Entidades::Entidade::exportarParaArquivo(const std::string &nomeArquivo, co
 
         outputFile << existingData.dump(4) << std::endl;
         outputFile.close();
-
-        //std::cout << "Dados exportados para " << nomeArquivo << std::endl;
     }
     else
     {

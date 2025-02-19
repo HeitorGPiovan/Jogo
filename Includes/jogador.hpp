@@ -46,6 +46,8 @@ namespace Entidades
             void setPts2(int p2);
             const int getPts2() const;
         };
+
+        //Criado com auxilio de I.A: https://chatgpt.com/
         struct ComparadorJogador 
         {
             bool operator()(const Jogador* j1, const Jogador* j2) const 

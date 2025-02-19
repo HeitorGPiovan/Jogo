@@ -262,7 +262,6 @@ void Dia::execucaoPausa()
         // Continuar
         setOpcao(ultimaOpcao);
         pMenu->setMenu(1);
-        //cout << "Selecionado continuar" << endl;
         break;
 
     case (2):
@@ -500,8 +499,6 @@ void Dia::incluirRanking(Entidades::Personagens::Jogador *jogador)
     jog->setPontos(jogador->getPontos());
 
     ranking.insert(jog);
-
-    //jogador->setPontos(0);
 }
 
 void Dia::salvarRanking()

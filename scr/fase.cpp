@@ -414,11 +414,11 @@ void Fases::Fase::criarCenario()
 
     if (numFase == 1)
     {
-        fim.setPosition(1100, 70); // 1095,89
+        fim.setPosition(1100, 70);
     }
     else if (numFase == 2)
     {
-        fim.setPosition(615, 69); // 615,59
+        fim.setPosition(615, 69); 
     }
     carregada = false;
     pGrafico->desenharElemento(fim);
@@ -463,14 +463,12 @@ void Fases::Fase::setJog(Entidades::Personagens::Jogador *pj1)
 {
     pJog1 = pj1;
     pJog2 = NULL;
-    // cout << "Jogador setado" << endl;
 }
 
 void Fases::Fase::setJog(Entidades::Personagens::Jogador *pj1, Entidades::Personagens::Jogador *pj2)
 {
     pJog1 = pj1;
     pJog2 = pj2;
-    // cout << "Jogadores setados" << endl;
 }
 
 const bool Fases::Fase::getCriada() const
@@ -760,11 +758,11 @@ void Fases::Fase::criarCenarioCarregado()
 
     if (numFase == 1)
     {
-        fim.setPosition(1095, 69); // 1095,89
+        fim.setPosition(1095, 69);
     }
     else if (numFase == 2)
     {
-        fim.setPosition(615, 69); // 615,59
+        fim.setPosition(615, 69);
     }
     carregada = true;
     pGrafico->desenharElemento(fim);

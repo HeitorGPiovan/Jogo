@@ -22,9 +22,9 @@ Gerenciadores::Grafico::Grafico() : window(new sf::RenderWindow(sf::VideoMode(LA
     carregarTextura("Tanque", "Imagens/Tanque.png");
 
     // https://lovepik.com/image-610487496/q-version-cartoon-horizontal-version-of-the-game-character-scene.html
-    carregarTextura("PlataformaP", "Imagens/PlataformaP.png"); // Créditos: QianKuWang
-    carregarTextura("PlataformaM", "Imagens/PlataformaM.png"); // Créditos: QianKuWang
-    carregarTextura("PlataformaG", "Imagens/PlataformaG.png"); // Créditos: QianKuWang
+    carregarTextura("PlataformaP", "Imagens/PlataformaP.png"); 
+    carregarTextura("PlataformaM", "Imagens/PlataformaM.png");
+    carregarTextura("PlataformaG", "Imagens/PlataformaG.png"); 
     carregarTextura("PlataformaI", "Imagens/PlataformaI.png"); // Créditos: QianKuWang
 
     carregarTextura("Projetil", "Imagens/Projetil.png");

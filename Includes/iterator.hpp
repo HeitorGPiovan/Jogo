@@ -18,7 +18,6 @@ namespace Listas
         virtual void proximo() = 0;
         virtual T *obterProximo() = 0;
 
-        // Classe aninhada IteradorLista
         template <typename TL>
         class IteradorLista : public Iterador<TL>
         {

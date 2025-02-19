@@ -27,11 +27,6 @@ Entidades::Obstaculos::Fosso::~Fosso()
 
 void Entidades::Obstaculos::Fosso::obstacular(Entidades::Personagens::Jogador *p)
 {
-    // Jog1.X = 20
-    // Jog1.Y = 430
-    // Jog2.X = 90
-    // Jog2.Y = 430
-
     if (p)
     {
         if (p->getEhJog2() == false)
